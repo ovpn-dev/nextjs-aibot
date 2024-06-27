@@ -7,6 +7,7 @@ import { Button, buttonVariants } from '@/components/ui/button'
 import {
   IconGitHub,
   IconNextChat,
+  IconRepurposly,
   IconSeparator,
   IconVercel
 } from '@/components/ui/icons'
@@ -56,7 +57,7 @@ export function Header() {
         </React.Suspense>
       </div>
       <div className="flex items-center justify-end space-x-2">
-        <a
+        {/* <a
           target="_blank"
           href="https://github.com/vercel/nextjs-ai-chatbot/"
           rel="noopener noreferrer"
@@ -64,15 +65,16 @@ export function Header() {
         >
           <IconGitHub />
           <span className="hidden ml-2 md:flex">GitHub</span>
-        </a>
+        </a> */}
         <a
-          href="https://vercel.com/templates/Next.js/nextjs-ai-chatbot"
+          href="https://repurposly.ai/"
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconVercel className="mr-2" />
+          <IconRepurposly className="mr-2" />
+          {/* <IconVercel className="mr-2" />
           <span className="hidden sm:block">Deploy to Vercel</span>
-          <span className="sm:hidden">Deploy</span>
+          <span className="sm:hidden">Deploy</span> */}
         </a>
       </div>
     </header>

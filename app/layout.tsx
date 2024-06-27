@@ -13,14 +13,14 @@ export const metadata = {
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
   title: {
-    default: 'Next.js AI Chatbot',
-    template: `%s - Next.js AI Chatbot`
+    default: 'Repurposly.Ai',
+    template: `%s -  AI Writer`
   },
-  description: 'An AI-powered chatbot template built with lots of love',
+  description: 'Repurposly AI-powered Writer',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png'
+    icon: '/logoRep.ico',
+    shortcut: '/logoRep.ico',
+    apple: '/repurposlyLogo.svg'
   }
 }
 
