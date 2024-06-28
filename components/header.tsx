@@ -71,12 +71,13 @@ export function Header() {
           href="https://repurposly.ai/"
           target="_blank"
           // className={cn(buttonVariants())}
+          className="bg-white"
         >
           {/* <IconRepurposly /> */}
           <Image className="mr-2"
       src="/Rwriter.png"
-      width={300}
-      height={500}
+      width={100}
+      height={300}
       alt="Repurposly writer"
     />
           {/* <IconVercel className="mr-2" />
