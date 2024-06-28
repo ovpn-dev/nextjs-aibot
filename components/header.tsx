@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { auth } from '@/auth'
 import { Button, buttonVariants } from '@/components/ui/button'
@@ -16,6 +16,7 @@ import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { Session } from '@/lib/types'
+
 
 async function UserOrLogin() {
   const session = (await auth()) as Session
@@ -71,7 +72,13 @@ export function Header() {
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconRepurposly className="mr-2" />
+          {/* <IconRepurposly /> */}
+          <Image className="mr-2"
+      src="/Rwriter.png"
+      width={500}
+      height={500}
+      alt="Repurposly writer"
+    />
           {/* <IconVercel className="mr-2" />
           <span className="hidden sm:block">Deploy to Vercel</span>
           <span className="sm:hidden">Deploy</span> */}
