@@ -68,8 +68,9 @@ export function Header() {
           <span className="hidden ml-2 md:flex">GitHub</span>
         </a> */}
         <a
-          href="https://repurposly.ai/"
+          href="/new"
           target="_blank"
+          rel="nofollow"
           // className={cn(buttonVariants())}
           className="text-white"
         >

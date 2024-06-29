@@ -9,7 +9,7 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-        Welcome to Repurposely Ai Writer!
+        Welcome to Repurposly Ai Writer!
         </h1>
         <p className="leading-normal text-muted-foreground">
         Repurposlys AI writing assistant is built with state of the art conversational Ai models.{' '}
