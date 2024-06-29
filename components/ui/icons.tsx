@@ -510,23 +510,6 @@ function IconRepurposly({ className, ...props }: React.ComponentProps<'svg'>) {
 
 
 
-interface IconRepProps extends React.ImgHTMLAttributes<HTMLImageElement> {
-  size?: number;
-}
-
-export function IconRep({ size = 24, ...props }: IconRepProps) {
-  const src = `${process.env.PUBLIC_URL ?? ''}/logoRep.svg`;
-
-  return (
-    <Image
-      src={src}
-      alt="Icon Rep"
-      width={size as unknown as `${number}`}
-      height={size as unknown as `${number}`}
-      {...props}
-    />
-  );
-}
 
 
 export {
