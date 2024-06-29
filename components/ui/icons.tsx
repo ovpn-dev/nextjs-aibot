@@ -516,12 +516,13 @@ interface IconRepProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 
 export function IconRep({ size = 24, ...props }: IconRepProps) {
   const src = `${process.env.PUBLIC_URL ?? ''}/logoRep.svg`;
+
   return (
     <Image
-    src={src}
+      src={src}
       alt="Icon Rep"
-      width={size}
-      height={size}
+      width={size as unknown as `${number}`}
+      height={size as unknown as `${number}`}
       {...props}
     />
   );
