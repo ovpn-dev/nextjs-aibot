@@ -509,7 +509,7 @@ function IconRepurposly({ className, ...props }: React.ComponentProps<'svg'>) {
 
 function IconRep({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
       <defs>
       <radialGradient id="radial0" gradientUnits="userSpaceOnUse" cx="0" cy="0" fx="0" fy="0" r="1" gradientTransform="matrix(0.701332,5.519997,-4.075417,0.517794,13.482353,13.341176)">
       <stop offset="0" style="stop-color:rgb(100%,40%,20%);stop-opacity:1;"/>
