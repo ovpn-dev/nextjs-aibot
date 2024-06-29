@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 
-import iconRepSvg from '../public/logoRep.svg';
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 function IconNextChat({
@@ -515,9 +515,10 @@ interface IconRepProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 }
 
 export function IconRep({ size = 24, ...props }: IconRepProps) {
+  const src = `${process.env.PUBLIC_URL ?? ''}/logoRep.svg`;
   return (
-    <img
-    src={`${process.env.PUBLIC_URL}/logoRep.svg`}
+    <Image
+    src={src}
       alt="Icon Rep"
       width={size}
       height={size}
