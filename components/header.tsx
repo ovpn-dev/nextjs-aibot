@@ -72,7 +72,7 @@ export function Header() {
           target="_blank"
           rel="nofollow"
           // className={cn(buttonVariants())}
-          className="text-white"
+          className="bg-white"
         >
           {/* <IconRepurposly /> */}
           <Image className="mr-2"

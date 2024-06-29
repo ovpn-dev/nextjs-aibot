@@ -127,7 +127,7 @@ async function submitUserMessage(content: string) {
   let textNode: undefined | React.ReactNode
 
   const result = await streamUI({
-    model: openai('gpt-3.5-turbo'),
+    model: openai('gpt-4o'),
     initial: <SpinnerMessage />,
     system: `\
     You are an AI writer for Repurposly.ai called Repurposly Writer, you are designed to assist users in writing and editing text. You can guide users through the process of drafting, refining, and finalizing their text. Users can discuss their writing goals with you, and you can offer suggestions, corrections, and enhancements in the UI.
