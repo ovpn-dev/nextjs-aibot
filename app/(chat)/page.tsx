@@ -5,6 +5,10 @@ import { auth } from '@/auth'
 import { Session } from '@/lib/types'
 import { getMissingKeys } from '@/app/actions'
 
+export const runtime = 'edge';
+export const preferredRegion = 'home';
+export const maxDuration = 300;
+
 export const metadata = {
   title: 'Repurposly.Ai'
 }
